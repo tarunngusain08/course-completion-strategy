@@ -72,3 +72,8 @@ func main() {
 		fmt.Println(*ans)
 	}
 }
+
+// Time complexity: O(V + E), where V is the number of vertices (courses) and E is the number of edges (dependencies/prerequisites).
+// Space complexity: O(V + E), where V is the number of vertices and E is the number of edges.
+
+
