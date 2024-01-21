@@ -38,3 +38,13 @@ Example 3 :
 Input: n = 1, prereqs = []
 
 Output: [0]
+
+
+## Solution
+
+This can be solved using Topological sort using Kahn's algo. 
+- Time complexity: O(V + E), where V is the number of vertices (courses) and E is the number of edges (dependencies/prerequisites).
+- Space complexity: O(V + E), where V is the number of vertices and E is the number of edges.
+
+<img width="1512" alt="Screenshot 2024-01-21 at 6 32 24 AM" src="https://github.com/tarunngusain08/course-completion-strategy/assets/36428256/b8b8c3e7-93f7-41c5-90bd-f50450aad849">
+
